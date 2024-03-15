@@ -1,4 +1,5 @@
-import bgImage from "./assets/images/Frame.png";
+import { Navbar } from "./components/Navbar";
+import bgImage from "./assets/images/Frame2.png";
 
 const bgImgStyle = {
   backgroundImage: `url(${bgImage})`,
@@ -10,9 +11,7 @@ const bgImgStyle = {
 export const HeroSection = () => {
   return (
     <>
-      <div style={bgImgStyle}>
-        <h1 className="text-4xl font-bold text-purple-800">Comming Soon...</h1>
-      </div>
+      <div style={bgImgStyle}></div>
     </>
   );
 };
